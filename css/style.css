@@ -4,9 +4,21 @@
     box-sizing:border-box;
 }
 
+header {
+    position:relative;
+} 
+
 .header-container {
     height: 70px;
     background-color: #FF6900;
+    position: fixed;
+}
+
+
+
+.main-container {
+    margin:0 auto;
+    width: 1200px;   
 }
 
 .nav-bar {
@@ -14,6 +26,7 @@
     width: 1200px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 ul, li {
@@ -32,4 +45,13 @@ ul, li {
 i {
     color: white;
     margin: 25px 0;
+}
+
+.column {
+    margin-top: 50px;
+    
+}
+
+.first-img {
+    height: 650px;
 }
