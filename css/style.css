@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.header-container {
+    height: 70px;
+    background-color: #FF6900;
+}
+
+.nav-bar {
+    margin:0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul, li {
+    list-style-type:none;
+    display: flex;
+    color:white;
+    margin: 10px 5px;
+    font-size: 20px;
+}
+
+.logo {
+    height: 30px;
+    margin:20px 0;
+}
+
+i {
+    color: white;
+    margin: 25px 0;
+}
