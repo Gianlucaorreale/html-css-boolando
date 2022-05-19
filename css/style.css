@@ -49,11 +49,45 @@ i {
     margin: 25px 0;
 }
 
+
+
 .column {
+    position:relative;
 }
 
-.first-img {
- height: 600px;
- width: 380px;
- margin-left: 10px;
+#products .row {
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 -10px;
+}
+
+#products img {
+    max-width: 100%;
+
+}
+
+#products .col {
+    flex-basis: calc(100% / 3);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.card .card-image {
+    cursor: pointer;
+}
+
+.card-image .main-image {
+    display: block;
+}
+
+.card-image .secondary-image {
+    display: none;
+}
+
+.card-image:hover .main-image {
+    display: none;
+}
+
+.card-image:hover .secondary-image {
+    display: block;
 }
