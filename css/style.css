@@ -65,6 +65,7 @@ i {
 
 #products img {
     max-width: 100%;
+    margin-top: 100px;
 
 }
 
@@ -104,4 +105,8 @@ i {
     height:50px;
     background-color: white;
     text-align:center;
+}
+
+.card-image .favourite:hover {
+    color: red;
 }
