@@ -8,11 +8,13 @@ header {
     position:fixed;
     height: 70px;
     width:100%;
+    
 } 
 
 .header-container {
     
     background-color: #FF6900;
+    
     
 }
 
@@ -74,6 +76,7 @@ i {
 
 .card .card-image {
     cursor: pointer;
+    position:relative;
 }
 
 .card-image .main-image {
@@ -90,4 +93,15 @@ i {
 
 .card-image:hover .secondary-image {
     display: block;
+}
+
+.card-image .favourite {
+    position:absolute;
+    right: 0;
+    top:10px;
+    font-size: 36px;
+    width:50px;
+    height:50px;
+    background-color: white;
+    text-align:center;
 }
